@@ -12,8 +12,8 @@ export class DropdownDirective {
   @HostBinding('class.show') isOpen = false;
 
   @HostListener('mouseover') toggleOpen() {
-    console.log('mouseover');
-    console.log(this.isOpen);
+    // console.log('mouseover');
+    // console.log(this.isOpen);
     this.isOpen = !this.isOpen;
   }
 }
