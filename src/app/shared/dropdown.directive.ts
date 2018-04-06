@@ -7,7 +7,7 @@ import { Directive,
 export class DropdownDirective {
 
   constructor(){
-    console.log('Dropdown directive');
+    // console.log('Dropdown directive');
   }
   @HostBinding('class.show') isOpen = false;
 
